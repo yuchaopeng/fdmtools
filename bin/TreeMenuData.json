@@ -1,0 +1,41 @@
+{
+    "root": {
+        "id": "TREE_ROOT",
+        "name": "过账引擎维护工具",
+        "viewId": "",
+        "children": [
+            {
+                "id": "TREE_TRANS_INFO",
+                "name": "交易信息",
+                "viewId": "",
+                "children": [
+                    {
+                        "id": "TREE_SEARCH_TRANS_INFO",
+                        "name": "查询交易信息",
+                        "viewId": "com.yu.fdm.tools.rcp.view.SearchTransInfoView",
+                        "image":"search_16.png"
+                    },
+                    {
+                        "id": "TREE_MERGE_TRANS_INFO",
+                        "name": "合并交易信息",
+                        "viewId": "com.yu.fdm.tools.rcp.view.MerageTransInfoView",
+                        "image":"merge_16.png"
+                    }
+                ]
+            },
+            {
+                "id": "TREE_ACCOUNT_JOURNAL_RULE",
+                "name": "核算规则",
+                "viewId": "",
+                "children": [
+                    {
+                        "id": "TREE_ACCOUNT_JOURNAL_RULE_SET",
+                        "name": "核算规则比对",
+                        "viewId": "com.yu.fdm.tools.rcp.view.AccountJournalRuleSetView",
+                        "image":"compare_16.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

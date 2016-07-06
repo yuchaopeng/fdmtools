@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="fdmtools" id="fdmtools.fdmtools" application="fdmtools.application" useFeatures="false" includeLaunchers="true">
+
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/fdmtools/icons/product16.png" i32="/fdmtools/icons/product32.png" i48="/fdmtools/icons/product48.png" i64="/fdmtools/icons/product64.png" i128="/fdmtools/icons/product128.png"/>
+
+   <splash
+      location="fdmtools"
+      handlerType="extensible" />
+   <launcher name="fdmtools">
+      <solaris/>
+      <win useIco="false">
+         <ico path="/fdmtools/icons/signle_ico.ico"/>
+         <bmp
+            winSmallHigh="/fdmtools/icons/start_16_32.bmp"
+            winSmallLow="/fdmtools/icons/start_16_8.bmp"
+            winMediumHigh="/fdmtools/icons/start_32_32.bmp"
+            winMediumLow="/fdmtools/icons/start_32_8.bmp"
+            winLargeHigh="/fdmtools/icons/start_48_32.bmp"
+            winLargeLow="/fdmtools/icons/start_48_8.bmp"/>
+      </win>
+   </launcher>
+
+
+   <vm>
+   </vm>
+
+   <plugins>
+      <plugin id="com.ibm.icu"/>
+      <plugin id="fdmtools"/>
+      <plugin id="javax.servlet"/>
+      <plugin id="javax.transaction" fragment="true"/>
+      <plugin id="org.eclipse.core.commands"/>
+      <plugin id="org.eclipse.core.contenttype"/>
+      <plugin id="org.eclipse.core.databinding"/>
+      <plugin id="org.eclipse.core.databinding.observable"/>
+      <plugin id="org.eclipse.core.databinding.property"/>
+      <plugin id="org.eclipse.core.expressions"/>
+      <plugin id="org.eclipse.core.jobs"/>
+      <plugin id="org.eclipse.core.runtime"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.auth"/>
+      <plugin id="org.eclipse.core.runtime.compatibility.registry" fragment="true"/>
+      <plugin id="org.eclipse.equinox.app"/>
+      <plugin id="org.eclipse.equinox.common"/>
+      <plugin id="org.eclipse.equinox.preferences"/>
+      <plugin id="org.eclipse.equinox.registry"/>
+      <plugin id="org.eclipse.help"/>
+      <plugin id="org.eclipse.jface"/>
+      <plugin id="org.eclipse.jface.databinding"/>
+      <plugin id="org.eclipse.osgi"/>
+      <plugin id="org.eclipse.osgi.services"/>
+      <plugin id="org.eclipse.swt"/>
+      <plugin id="org.eclipse.swt.win32.win32.x86" fragment="true"/>
+      <plugin id="org.eclipse.ui"/>
+      <plugin id="org.eclipse.ui.workbench"/>
+      <plugin id="org.hamcrest.core"/>
+      <plugin id="org.junit"/>
+   </plugins>
+
+
+</product>

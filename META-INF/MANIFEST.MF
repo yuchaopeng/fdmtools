@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fdmtools
+Bundle-SymbolicName: fdmtools; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.yu.fdm.tools.rcp.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.junit
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: .,
+ lib/commons-beanutils-1.7.0.jar,
+ lib/commons-collections-3.2.1.jar,
+ lib/commons-lang-2.3.jar,
+ lib/commons-logging-api-1.1.jar,
+ lib/ezmorph-1.0.3.jar,
+ lib/json-lib-2.1-jdk15.jar,
+ swing2swt.jar,
+ lib/freemarker-gae-2.3.21-rc01.jar,
+ lib/mysql-connector-java-5.1.26-bin.jar,
+ lib/poi-3.10.1-20140818.jar,
+ lib/log4j-1.2.16.jar
